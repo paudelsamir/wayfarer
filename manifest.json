@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "paudelsamir.wayfarer",
+  "name": "Wayfarer",
+  "version": "0.1.0",
+  "author": "Samir Paudel",
+  "license": "MIT",
+  "description": "Complete the map of your life. A minimal travel tracker: tiny bar progress, large floating map, click to mark visited.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Wayfarer",
+    "description": "Travel progress in the bar; click for the map.",
+    "category": "Lifestyle",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

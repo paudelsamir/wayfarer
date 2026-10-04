@@ -1,0 +1,24 @@
+module components
+singleton Theme 1.0 Theme.qml
+Chip 1.0 Chip.qml
+CustomPlaces 1.0 CustomPlaces.qml
+DetailCard 1.0 DetailCard.qml
+Field 1.0 Field.qml
+GeoPack 1.0 GeoPack.qml
+MapCanvas 1.0 MapCanvas.qml
+PillButton 1.0 PillButton.qml
+Segmented 1.0 Segmented.qml
+SettingRow 1.0 SettingRow.qml
+SettingsView 1.0 SettingsView.qml
+SetupView 1.0 SetupView.qml
+Tooltip 1.0 Tooltip.qml
+CheckCircle 1.0 CheckCircle.qml
+Confetti 1.0 Confetti.qml
+EmptyState 1.0 EmptyState.qml
+ProgressBar 1.0 ProgressBar.qml
+Ring 1.0 Ring.qml
+SectionHeader 1.0 SectionHeader.qml
+Slider 1.0 Slider.qml
+Avatar 1.0 Avatar.qml
+Footprints 1.0 Footprints.qml
+ProfileView 1.0 ProfileView.qml
