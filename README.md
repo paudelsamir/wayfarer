@@ -114,8 +114,9 @@ omarchy plugin remove paudelsamir.wayfarer
 
 <table>
   <tr>
-    <td width="50%" align="center"><strong>Profile, part one</strong><br><img src="assets/01_profile.png" alt="Profile part one" width="100%"></td>
-    <td width="50%" align="center"><strong>Profile, part two</strong><br><img src="assets/02_profile.png" alt="Profile part two" width="100%"></td>
+    <td width="33%" align="center"><strong>Profile, part one</strong><br><img src="assets/01_profile.png" alt="Profile part one" width="100%"></td>
+    <td width="33%" align="center"><strong>Profile, part two</strong><br><img src="assets/02_profile.png" alt="Profile part two" width="100%"></td>
+    <td width="33%" align="center"><strong>Share card</strong><br><img src="assets/03_share_card.png" alt="Share card" width="100%"></td>
   </tr>
 </table>
 

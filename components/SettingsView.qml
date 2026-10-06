@@ -13,11 +13,31 @@ Item {
   property string ioMessage: ""
   property bool confirmReset: false
   property bool showRaw: false
+  property bool exportFlash: false
+
+  signal shareRequested()
+
+  // Jump the list to the export block and flash the share button,
+  // so the map footer's "export" lands exactly where it should.
+  function focusExport() {
+    exportFlash = true
+    flashTimer.restart()
+    scrollTimer.restart()
+  }
+  Timer { id: flashTimer; interval: 1600; repeat: false; onTriggered: root.exportFlash = false }
+  Timer {
+    id: scrollTimer; interval: 80; repeat: false
+    onTriggered: {
+      var pt = shareRow.mapToItem(col, 0, 0)
+      flick.contentY = Math.max(0, Math.min(pt.y - 80, Math.max(0, flick.contentHeight - flick.height)))
+    }
+  }
 
   readonly property var accents: ["#6f9ab0", "#8ba888", "#c2a878", "#b07f6f", "#9a8fc2"]
   readonly property color danger: "#b07f6f"
 
   Flickable {
+    id: flick
     anchors.fill: parent
     anchors.leftMargin: Theme.s(40)
     anchors.rightMargin: Theme.s(40)
@@ -265,6 +285,16 @@ SettingRow {
         font.family: "monospace"
         font.pixelSize: Theme.caption
         elide: Text.ElideMiddle
+      }
+      SettingRow {
+        id: shareRow
+        title: "share card"
+        detail: "a png of your map, worth posting"
+        PillButton {
+          text: "save png"
+          primary: root.exportFlash
+          onClicked: root.shareRequested()
+        }
       }
       SettingRow {
         title: "restore"

@@ -255,6 +255,25 @@ Panel {
     return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2)
   }
 
+  // Render the share postcard to a PNG in $HOME and say where it landed.
+  function exportSharePng() {
+    if (!store) return
+    var d = new Date()
+    function p(n) { return ("0" + n).slice(-2) }
+    var name = "wayfarer-card-" + d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate())
+      + "-" + p(d.getHours()) + p(d.getMinutes()) + ".png"
+    var path = store.home + "/" + name
+    shareCard.grabToImage(function(result) {
+      if (result.saveToFile(path)) {
+        store.lastIo = "saved · " + name
+        store.lastIoOk = true
+      } else {
+        store.lastIo = "could not write that file"
+        store.lastIoOk = false
+      }
+    }, Qt.size(1080, 1350))
+  }
+
   KeyboardPanel {
     id: panel
     anchorItem: root.anchorItem
@@ -285,6 +304,20 @@ Panel {
         // exactly (seamless, no box-in-box); in forced modes it carries
         // the curated palette so light mode is truly light.
         color: Theme.bg
+
+        // Offscreen share postcard: lives in-scene so grabToImage can
+        // render it, parked far left so it never shows on screen.
+        ShareCard {
+          id: shareCard
+          x: -4000
+          y: 0
+          store: root.store
+          summary: root.summary
+          features: root.features
+          provinces: root.provinces
+          countryName: root.countryName
+          unitLabel: root.unitWord + "s"
+        }
 
         // — appearance world: one full treatment file per look.
         // Map mode only: treatments are composed for the map chrome and
@@ -525,7 +558,7 @@ Panel {
               Text {
                 text: "export"
                 color: Theme.tertiary; font.pixelSize: 11
-                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: root.mode = "settings" }
+                MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: { root.mode = "settings"; settingsView.focusExport() } }
               }
               Text {
                 text: "settings"
@@ -837,9 +870,11 @@ Panel {
           anchors.fill: parent
           visible: root.mode === "settings"
           SettingsView {
+            id: settingsView
             anchors.fill: parent
             store: root.store
             features: root.features
+            onShareRequested: root.exportSharePng()
           }
           Text {
             anchors.bottom: parent.bottom

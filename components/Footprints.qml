@@ -22,10 +22,13 @@ Item {
   property int cell: 11
   property int gap: 3
   property color tint: Theme.accent
+  // Month and weekday labels grow on the share card; the profile default
+  // keeps the classic sizes (10 -> 18 and 14, exactly as before).
+  property int labelPixelSize: Theme.caption
 
   readonly property int pitch: cell + gap
-  readonly property int labelWidth: 18
-  readonly property int monthHeight: 14
+  readonly property int labelWidth: labelPixelSize + 8
+  readonly property int monthHeight: labelPixelSize + 4
 
   readonly property var grid: {
     // Monday-based columns ending this week.
@@ -86,7 +89,7 @@ Item {
       text: root.monthNames[first.getMonth()]
       color: Theme.tertiary
       font.family: Theme.font
-      font.pixelSize: Theme.caption
+      font.pixelSize: root.labelPixelSize
     }
   }
 
@@ -99,7 +102,7 @@ Item {
       text: modelData[0]
       color: Theme.tertiary
       font.family: Theme.font
-      font.pixelSize: Theme.caption
+      font.pixelSize: root.labelPixelSize
     }
   }
 
