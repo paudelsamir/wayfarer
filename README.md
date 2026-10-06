@@ -1,8 +1,8 @@
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="assets/dark_cover.png" alt="Wayfarer cover, dark" width="48%"></td>
-    <td align="center"><img src="assets/light_cover.png" alt="Wayfarer cover, light" width="48%"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/dark_cover.png" alt="Wayfarer cover, dark" width="48%"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/light_cover.png" alt="Wayfarer cover, light" width="48%"></td>
   </tr>
 
   
@@ -22,12 +22,12 @@ muted graphite turn into colour.
 
 <table>
   <tr>
-    <td width="50%" align="center"><strong>Nepal, all 77 districts</strong><br><img src="assets/map_nepal.png" alt="Nepal map with all 77 districts" width="100%"></td>
-    <td width="50%" align="center"><strong>India</strong><br><img src="assets/map_india.png" alt="India map" width="100%"></td>
+    <td width="50%" align="center"><strong>Nepal, all 77 districts</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/map_nepal.png" alt="Nepal map with all 77 districts" width="100%"></td>
+    <td width="50%" align="center"><strong>India</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/map_india.png" alt="India map" width="100%"></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><strong>China</strong><br><img src="assets/map_china.png" alt="China map" width="100%"></td>
-    <td width="50%" align="center"><strong>Germany</strong><br><img src="assets/map_germany.png" alt="Germany map" width="100%"></td>
+    <td width="50%" align="center"><strong>China</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/map_china.png" alt="China map" width="100%"></td>
+    <td width="50%" align="center"><strong>Germany</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/map_germany.png" alt="Germany map" width="100%"></td>
   </tr>
 </table>
 
@@ -35,8 +35,8 @@ muted graphite turn into colour.
 
 <table>
   <tr>
-    <td width="50%" align="center"><strong>Progress by count</strong><br><img src="assets/bar_widget_districts_count.png" alt="Bar widget showing 36/77" width="100%"></td>
-    <td width="50%" align="center"><strong>Progress by percent</strong><br><img src="assets/bar_widget_percentage.png" alt="Bar widget showing a percentage" width="100%"></td>
+    <td width="50%" align="center"><strong>Progress by count</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/bar_widget_districts_count.png" alt="Bar widget showing 36/77" width="100%"></td>
+    <td width="50%" align="center"><strong>Progress by percent</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/bar_widget_percentage.png" alt="Bar widget showing a percentage" width="100%"></td>
   </tr>
 </table>
 
@@ -44,9 +44,9 @@ muted graphite turn into colour.
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>Setup, first run</strong><br><img src="assets/01_setup_page.png" alt="First-run setup view" width="100%"></td>
-    <td width="33%" align="center"><strong>Settings</strong><br><img src="assets/02_settings_page.png" alt="Settings view" width="100%"></td>
-    <td width="33%" align="center"><strong>Flags support</strong><br><img src="assets/flags_support.png" alt="Flags support" width="100%"></td>
+    <td width="33%" align="center"><strong>Setup, first run</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/01_setup_page.png" alt="First-run setup view" width="100%"></td>
+    <td width="33%" align="center"><strong>Settings</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/02_settings_page.png" alt="Settings view" width="100%"></td>
+    <td width="33%" align="center"><strong>Flags support</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/flags_support.png" alt="Flags support" width="100%"></td>
   </tr>
 </table>
 
@@ -54,16 +54,16 @@ muted graphite turn into colour.
 
 <table>
   <tr>
-    <td width="50%" align="center"><strong>Atlas, light</strong><br><img src="assets/appearance_atlas_light.png" alt="Atlas appearance, light" width="100%"></td>
-    <td width="50%" align="center"><strong>Atlas, dark</strong><br><img src="assets/appearance_altas_dark.png" alt="Atlas appearance, dark" width="100%"></td>
+    <td width="50%" align="center"><strong>Atlas, light</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/appearance_atlas_light.png" alt="Atlas appearance, light" width="100%"></td>
+    <td width="50%" align="center"><strong>Atlas, dark</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/appearance_altas_dark.png" alt="Atlas appearance, dark" width="100%"></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><strong>Clean, light</strong><br><img src="assets/appearance_clean_light.png" alt="Clean appearance, light" width="100%"></td>
-    <td width="50%" align="center"><strong>Clean, dark</strong><br><img src="assets/appearance_clean_dark.png" alt="Clean appearance, dark" width="100%"></td>
+    <td width="50%" align="center"><strong>Clean, light</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/appearance_clean_light.png" alt="Clean appearance, light" width="100%"></td>
+    <td width="50%" align="center"><strong>Clean, dark</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/appearance_clean_dark.png" alt="Clean appearance, dark" width="100%"></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><strong>Survey, light</strong><br><img src="assets/appearance_survey_light.png" alt="Survey appearance, light" width="100%"></td>
-    <td width="50%" align="center"><strong>Survey, dark</strong><br><img src="assets/appearance_survey_dark.png" alt="Survey appearance, dark" width="100%"></td>
+    <td width="50%" align="center"><strong>Survey, light</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/appearance_survey_light.png" alt="Survey appearance, light" width="100%"></td>
+    <td width="50%" align="center"><strong>Survey, dark</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/appearance_survey_dark.png" alt="Survey appearance, dark" width="100%"></td>
   </tr>
 </table>
 
@@ -114,9 +114,9 @@ omarchy plugin remove paudelsamir.wayfarer
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>Profile, part one</strong><br><img src="assets/01_profile.png" alt="Profile part one" width="100%"></td>
-    <td width="33%" align="center"><strong>Profile, part two</strong><br><img src="assets/02_profile.png" alt="Profile part two" width="100%"></td>
-    <td width="33%" align="center"><strong>Share card</strong><br><img src="assets/03_share_card.png" alt="Share card" width="100%"></td>
+    <td width="33%" align="center"><strong>Profile, part one</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/01_profile.png" alt="Profile part one" width="100%"></td>
+    <td width="33%" align="center"><strong>Profile, part two</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/02_profile.png" alt="Profile part two" width="100%"></td>
+    <td width="33%" align="center"><strong>Share card</strong><br><img src="https://raw.githubusercontent.com/paudelsamir/wayfarer-assets/main/03_share_card.png" alt="Share card" width="100%"></td>
   </tr>
 </table>
 
